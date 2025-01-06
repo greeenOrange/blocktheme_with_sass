@@ -205,13 +205,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/react */ "./node_modules/swiper/swiper-react.mjs");
-/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/css */ "./node_modules/swiper/swiper.css");
-/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/modules */ "./node_modules/swiper/modules/index.mjs");
+/* harmony import */ var _Assets_images_banner_img_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Assets/images/banner_img.png */ "./src/Assets/images/banner_img.png");
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/css */ "./node_modules/swiper/swiper.css");
+/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper/css/pagination */ "./node_modules/swiper/modules/pagination.css");
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
+/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! swiper/modules */ "./node_modules/swiper/modules/index.mjs");
+
 
 
 
 
 // Import Swiper styles
+
+
 
 
 // import required modules
@@ -221,10 +227,6 @@ const Banner = () => {
     class: "banner_part"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     class: "container"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "row align-items-center"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "col-lg-12"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     class: "banner_slider"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.Swiper, {
@@ -238,14 +240,24 @@ const Banner = () => {
       nextEl: ".custom-next",
       prevEl: ".custom-prev"
     },
-    modules: [swiper_modules__WEBPACK_IMPORTED_MODULE_3__.Pagination, swiper_modules__WEBPACK_IMPORTED_MODULE_3__.Navigation],
+    modules: [swiper_modules__WEBPACK_IMPORTED_MODULE_6__.Pagination, swiper_modules__WEBPACK_IMPORTED_MODULE_6__.Navigation],
     className: "mySwiper"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     class: "single_banner_slider"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "row"
+    class: "banner_text"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "col-lg-5 col-md-8"
+    class: "banner_text_iner"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", null, "Wood & Cloth Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "btn_2"
+  }, "buy now"))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "banner_img"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_banner_img_png__WEBPACK_IMPORTED_MODULE_2__,
+    alt: ""
+  })))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_banner_slider"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     class: "banner_text"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -253,35 +265,13 @@ const Banner = () => {
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", null, "Wood & Cloth Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "#",
     class: "btn_2"
-  }, "buy now")))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_img d-none d-lg-block"
+  }, "buy now"))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "banner_img"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "img/banner_img.png",
+    src: _Assets_images_banner_img_png__WEBPACK_IMPORTED_MODULE_2__,
     alt: ""
-  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  })))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     class: "single_banner_slider"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "row"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "col-lg-5 col-md-8"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_text"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_text_iner"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", null, "Cloth & Wood Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#",
-    class: "btn_2"
-  }, "buy now")))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_img d-none d-lg-block"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "img/banner_img.png",
-    alt: ""
-  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, " ", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "single_banner_slider"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "row"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "col-lg-5 col-md-8"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     class: "banner_text"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -289,30 +279,12 @@ const Banner = () => {
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", null, "Wood & Cloth Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "#",
     class: "btn_2"
-  }, "buy now")))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_img d-none d-lg-block"
+  }, "buy now"))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "banner_img"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "img/banner_img.png",
+    src: _Assets_images_banner_img_png__WEBPACK_IMPORTED_MODULE_2__,
     alt: ""
-  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, " ", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "single_banner_slider"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "row"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "col-lg-5 col-md-8"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_text"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_text_iner"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", null, "Cloth & Wood Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#",
-    class: "btn_2"
-  }, "buy now")))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    class: "banner_img d-none d-lg-block"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "img/banner_img.png",
-    alt: ""
-  }))))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  })))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "custom-navigation"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
     className: "custom-prev"
@@ -320,7 +292,7 @@ const Banner = () => {
     className: "custom-next"
   }, "Next")), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "custom-pagination"
-  })))));
+  })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Banner);
 
@@ -373,6 +345,30 @@ const Home = () => {
 
 /***/ }),
 
+/***/ "./node_modules/swiper/modules/navigation.css":
+/*!****************************************************!*\
+  !*** ./node_modules/swiper/modules/navigation.css ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./node_modules/swiper/modules/pagination.css":
+/*!****************************************************!*\
+  !*** ./node_modules/swiper/modules/pagination.css ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./node_modules/swiper/swiper.css":
 /*!****************************************!*\
   !*** ./node_modules/swiper/swiper.css ***!
@@ -385,10 +381,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/styles/main.scss":
-/*!******************************!*\
-  !*** ./src/styles/main.scss ***!
-  \******************************/
+/***/ "./src/styles/sass/main.scss":
+/*!***********************************!*\
+  !*** ./src/styles/sass/main.scss ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -426,6 +422,16 @@ if (false) {} else {
   };
 }
 
+
+/***/ }),
+
+/***/ "./src/Assets/images/banner_img.png":
+/*!******************************************!*\
+  !*** ./src/Assets/images/banner_img.png ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/banner_img.9c03e6eb.png";
 
 /***/ }),
 
@@ -22642,7 +22648,7 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
+/* harmony import */ var _styles_sass_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/sass/main.scss */ "./src/styles/sass/main.scss");
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var _Components_Screens_App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/Screens/App */ "./src/Components/Screens/App.js");
 
