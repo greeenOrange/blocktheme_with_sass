@@ -21,7 +21,6 @@ const Banner = () => {
               clickable: true,
             }}
             navigation={{
-              true: true,
               nextEl: ".custom-next",
               prevEl: ".custom-prev",
             }}
@@ -89,11 +88,9 @@ const Banner = () => {
         </div>
         {/* Custom Navigation Buttons */}
         <div className="custom-navigation">
-          <button className="custom-prev">Prev</button>
-          <button className="custom-next">Next</button>
+          <button className="custom-prev">previous</button>
+          <button className="custom-next">next</button>
         </div>
-
-        {/* Custom Pagination */}
         <div className="custom-pagination"></div>
       </div>
     </section>

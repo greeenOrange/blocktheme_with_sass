@@ -36,6 +36,7 @@ const ProductList = () => {
                   <Swiper
                     slidesPerView={4}
                     spaceBetween={30}
+                    pagination={true}
                     navigation={{
                         true: true,
                         nextEl: ".product-next",
@@ -253,6 +254,10 @@ const ProductList = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="product-navigation">
+          <button className="product-prev">previous</button>
+          <button className="product-next">next</button>
         </div>
       </div>
     </section>
