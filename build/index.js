@@ -298,6 +298,371 @@ const Banner = () => {
 
 /***/ }),
 
+/***/ "./src/Components/Partials/Featured.js":
+/*!*********************************************!*\
+  !*** ./src/Components/Partials/Featured.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Assets_images_feature_feature_1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Assets/images/feature/feature_1.png */ "./src/Assets/images/feature/feature_1.png");
+/* harmony import */ var _Assets_images_feature_feature_2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Assets/images/feature/feature_2.png */ "./src/Assets/images/feature/feature_2.png");
+/* harmony import */ var _Assets_images_feature_feature_3_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Assets/images/feature/feature_3.png */ "./src/Assets/images/feature/feature_3.png");
+/* harmony import */ var _Assets_images_feature_feature_4_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Assets/images/feature/feature_4.png */ "./src/Assets/images/feature/feature_4.png");
+
+
+
+
+
+
+const Featured = () => {
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", {
+    class: "feature_part padding_top"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "container"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "row justify-content-center"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "col-lg-8"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "section_tittle text-center"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", null, "Featured Category")))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "row align-items-center justify-content-between"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "col-lg-7 col-sm-6"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_feature_post_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Premium Quality"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "Latest foam Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "feature_btn"
+  }, "EXPLORE NOW ", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "fas fa-play"
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_feature_feature_1_png__WEBPACK_IMPORTED_MODULE_1__,
+    alt: ""
+  }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "col-lg-5 col-sm-6"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_feature_post_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Premium Quality"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "Latest foam Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "feature_btn"
+  }, "EXPLORE NOW ", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "fas fa-play"
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_feature_feature_2_png__WEBPACK_IMPORTED_MODULE_2__,
+    alt: ""
+  }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "col-lg-5 col-sm-6"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_feature_post_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Premium Quality"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "Latest foam Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "feature_btn"
+  }, "EXPLORE NOW ", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "fas fa-play"
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_feature_feature_3_png__WEBPACK_IMPORTED_MODULE_3__,
+    alt: ""
+  }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "col-lg-7 col-sm-6"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_feature_post_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Premium Quality"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "Latest foam Sofa"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "feature_btn"
+  }, "EXPLORE NOW ", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "fas fa-play"
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_feature_feature_4_png__WEBPACK_IMPORTED_MODULE_4__,
+    alt: ""
+  }))))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Featured);
+
+/***/ }),
+
+/***/ "./src/Components/Partials/ProductList.js":
+/*!************************************************!*\
+  !*** ./src/Components/Partials/ProductList.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/react */ "./node_modules/swiper/swiper-react.mjs");
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/css */ "./node_modules/swiper/swiper.css");
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
+/* harmony import */ var _Assets_images_product_product_1_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Assets/images/product/product_1.png */ "./src/Assets/images/product/product_1.png");
+/* harmony import */ var _Assets_images_product_product_2_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Assets/images/product/product_2.png */ "./src/Assets/images/product/product_2.png");
+/* harmony import */ var _Assets_images_product_product_3_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Assets/images/product/product_3.png */ "./src/Assets/images/product/product_3.png");
+/* harmony import */ var _Assets_images_product_product_4_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Assets/images/product/product_4.png */ "./src/Assets/images/product/product_4.png");
+/* harmony import */ var _Assets_images_product_product_5_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Assets/images/product/product_5.png */ "./src/Assets/images/product/product_5.png");
+/* harmony import */ var _Assets_images_product_product_6_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../Assets/images/product/product_6.png */ "./src/Assets/images/product/product_6.png");
+/* harmony import */ var _Assets_images_product_product_7_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../Assets/images/product/product_7.png */ "./src/Assets/images/product/product_7.png");
+/* harmony import */ var _Assets_images_product_product_8_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../Assets/images/product/product_8.png */ "./src/Assets/images/product/product_8.png");
+/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! swiper/modules */ "./node_modules/swiper/modules/index.mjs");
+
+
+
+// Import Swiper styles
+
+
+
+
+
+
+
+
+
+
+
+const ProductList = () => {
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", {
+    class: "product_list section_padding"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "container"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "row justify-content-center"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "col-lg-12"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "section_tittle text-center"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", null, "awesome ", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, "shop"))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "row"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "col-lg-12"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "product_list_slider owl-carousel"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_list_slider"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "row align-items-center justify-content-between"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.Swiper, {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    navigation: {
+      true: true,
+      nextEl: ".product-next",
+      prevEl: ".product-prev"
+    },
+    modules: [swiper_modules__WEBPACK_IMPORTED_MODULE_12__.Navigation],
+    className: "mySwiper"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_1_png__WEBPACK_IMPORTED_MODULE_4__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_2_png__WEBPACK_IMPORTED_MODULE_5__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_3_png__WEBPACK_IMPORTED_MODULE_6__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_4_png__WEBPACK_IMPORTED_MODULE_7__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_5_png__WEBPACK_IMPORTED_MODULE_8__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_6_png__WEBPACK_IMPORTED_MODULE_9__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_7_png__WEBPACK_IMPORTED_MODULE_10__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_8_png__WEBPACK_IMPORTED_MODULE_11__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  })))))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_list_slider"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "row align-items-center justify-content-between"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.Swiper, {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    className: "mySwiper"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_1_png__WEBPACK_IMPORTED_MODULE_4__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_2_png__WEBPACK_IMPORTED_MODULE_5__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_3_png__WEBPACK_IMPORTED_MODULE_6__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_4_png__WEBPACK_IMPORTED_MODULE_7__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_5_png__WEBPACK_IMPORTED_MODULE_8__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_6_png__WEBPACK_IMPORTED_MODULE_9__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_7_png__WEBPACK_IMPORTED_MODULE_10__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  }))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_item"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _Assets_images_product_product_8_png__WEBPACK_IMPORTED_MODULE_11__,
+    alt: ""
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    class: "single_product_text"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Quartz Belt Watch"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "$150.00"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    class: "add_cart"
+  }, "+ add to cart", (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    class: "ti-heart"
+  })))))))))))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductList);
+
+/***/ }),
+
 /***/ "./src/Components/Screens/App.js":
 /*!***************************************!*\
   !*** ./src/Components/Screens/App.js ***!
@@ -335,11 +700,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Header */ "./src/Components/Header.js");
 /* harmony import */ var _Partials_Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Partials/Banner */ "./src/Components/Partials/Banner.js");
+/* harmony import */ var _Partials_Featured__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Partials/Featured */ "./src/Components/Partials/Featured.js");
+/* harmony import */ var _Partials_ProductList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Partials/ProductList */ "./src/Components/Partials/ProductList.js");
+
+
 
 
 
 const Home = () => {
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("main", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_Partials_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_Partials_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_Partials_Featured__WEBPACK_IMPORTED_MODULE_3__["default"], null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("main", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_Partials_ProductList__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
 
@@ -435,6 +804,46 @@ module.exports = __webpack_require__.p + "images/banner_img.9c03e6eb.png";
 
 /***/ }),
 
+/***/ "./src/Assets/images/feature/feature_1.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/feature/feature_1.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/feature_1.a6116052.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/feature/feature_2.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/feature/feature_2.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/feature_2.f60c3e55.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/feature/feature_3.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/feature/feature_3.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/feature_3.dd0df432.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/feature/feature_4.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/feature/feature_4.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/feature_4.f7ae2554.png";
+
+/***/ }),
+
 /***/ "./src/Assets/images/logo.png":
 /*!************************************!*\
   !*** ./src/Assets/images/logo.png ***!
@@ -442,6 +851,86 @@ module.exports = __webpack_require__.p + "images/banner_img.9c03e6eb.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "images/logo.0dbb633d.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_1.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_1.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_1.e0c25633.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_2.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_2.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_2.0e616772.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_3.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_3.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_3.14465f6b.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_4.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_4.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_4.7b75045a.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_5.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_5.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_5.e8edb956.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_6.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_6.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_6.e0c25633.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_7.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_7.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_7.d396972f.png";
+
+/***/ }),
+
+/***/ "./src/Assets/images/product/product_8.png":
+/*!*************************************************!*\
+  !*** ./src/Assets/images/product/product_8.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/product_8.5f4e4a59.png";
 
 /***/ }),
 

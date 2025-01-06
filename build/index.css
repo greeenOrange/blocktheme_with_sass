@@ -12836,6 +12836,177 @@ ul {
 }
 
 /**************** hero part css end ****************/
+/**************** service_part css start ****************/
+.feature_part .single_feature_post_text {
+  padding: 50px;
+  background-color: #f8fbff;
+  margin-bottom: 30px;
+  position: relative;
+  height: 400px;
+}
+@media (max-width: 576px) {
+  .feature_part .single_feature_post_text {
+    padding: 35px 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .feature_part .single_feature_post_text {
+    height: 300px;
+    padding: 35px 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .feature_part .single_feature_post_text {
+    height: 300px;
+    padding: 35px 20px;
+  }
+}
+.feature_part .single_feature_post_text p {
+  line-height: 13px;
+}
+.feature_part .single_feature_post_text h3, .feature_part .single_feature_post_text .h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 21px;
+}
+@media (max-width: 576px) {
+  .feature_part .single_feature_post_text h3, .feature_part .single_feature_post_text .h3 {
+    margin-top: 10px;
+  }
+}
+.feature_part .single_feature_post_text .feature_btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ff3368;
+  position: absolute;
+  left: 50px;
+  bottom: 60px;
+  line-height: 15px;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.feature_part .single_feature_post_text .feature_btn i {
+  font-weight: 12px;
+  color: #ff3368;
+  margin-left: 6px;
+}
+.feature_part .single_feature_post_text img {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+@media (max-width: 576px) {
+  .feature_part .single_feature_post_text img {
+    max-height: 247px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .feature_part .single_feature_post_text img {
+    max-height: 195px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .feature_part .single_feature_post_text img {
+    max-height: 195px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .feature_part .single_feature_post_text img {
+    max-height: 280px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+.feature_part .single_feature_post_text:hover .feature_btn {
+  bottom: 50px;
+  opacity: 1;
+  visibility: visible;
+}
+
+/***************** product list css *******************/
+.product_list .section_tittle {
+  text-align: left !important;
+}
+.product_list .section_tittle h2, .product_list .section_tittle .h2 {
+  text-transform: capitalize;
+}
+.product_list .section_tittle span {
+  color: #adadad;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 60px;
+}
+
+.single_product_item {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+@media (max-width: 991px) {
+  .single_product_item img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .single_product_item img {
+    width: 100%;
+  }
+}
+.single_product_item .single_product_text {
+  padding: 32px 0;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.single_product_item .single_product_text h4, .single_product_item .single_product_text .h4 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+.single_product_item .single_product_text h3, .single_product_item .single_product_text .h3 {
+  font-weight: 300;
+  font-size: 18px;
+}
+.single_product_item .single_product_text a {
+  color: #ff3368;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.single_product_item .single_product_text a i {
+  float: right;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+}
+.single_product_item:hover {
+  box-shadow: 0px 10px 20px 0px rgba(0, 23, 51, 0.09);
+}
+.single_product_item:hover .single_product_text {
+  padding: 32px 32px;
+}
+.single_product_item:hover a {
+  opacity: 1;
+  visibility: visible;
+}
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/swiper/swiper.css ***!
   \************************************************************************************************************************************************************************************/
