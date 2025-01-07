@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoIosClose } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
 import { FaCartPlus } from "react-icons/fa";
-import logo from "../Assets/images/logo.png";
+import logo from "../../../Assets/images/logo.png";
 
 const Header = () => {
   const [searchOpen, setSearchOpen] = useState(false);

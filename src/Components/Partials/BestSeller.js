@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { CiHeart } from "react-icons/ci";
 // Import Swiper styles
@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { Navigation } from "swiper/modules";
-const ProductList = ({ title, products }) => {
+const BestSeller = ({title, products}) => {
   return (
     <section class="product_list section_padding">
       <div class="container">
@@ -88,7 +88,7 @@ const ProductList = ({ title, products }) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ProductList;
+export default BestSeller

@@ -94,7 +94,7 @@
       visibility: hidden;
       @include transform_time(0.5s);
 
-      i {
+      svg {
         float: right;
         font-size: 18px;
         line-height: 26px;
