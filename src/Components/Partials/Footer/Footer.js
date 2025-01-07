@@ -1,4 +1,8 @@
 import React from "react";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -133,22 +137,22 @@ const Footer = () => {
                 <ul class="list-unstyled">
                   <li>
                     <a href="#" class="single_social_icon">
-                      <i class="fab fa-facebook-f"></i>
+                    <FaFacebookF />
                     </a>
                   </li>
                   <li>
                     <a href="#" class="single_social_icon">
-                      <i class="fab fa-twitter"></i>
+                    <FaTwitter />
                     </a>
                   </li>
                   <li>
                     <a href="#" class="single_social_icon">
-                      <i class="fas fa-globe"></i>
+                    <FaGlobe />
                     </a>
                   </li>
                   <li>
                     <a href="#" class="single_social_icon">
-                      <i class="fab fa-behance"></i>
+                    <FaBehance />
                     </a>
                   </li>
                 </ul>
